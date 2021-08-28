@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"
+        android:textSize="14sp"
+        android:text="Welcome to the App"/>
+
+    <TextView
+        android:id="@+id/TVQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TV1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/acme"
+        android:textSize="16sp"
+        android:text="The slogan for which Auto brand is ‘The best or nothing’?" />
+
+    <Button
+        android:id="@+id/op1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TVQuestion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Mercedes-Benz" />
+
+    <Button
+        android:id="@+id/op2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/op1"
+        android:layout_centerHorizontal="true"
+        android:text="Porsche"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/op3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/op2"
+        android:layout_centerHorizontal="true"
+        android:text="Nissan"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/op4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/op3"
+        android:layout_centerHorizontal="true"
+        android:text="Aston Martin"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>
